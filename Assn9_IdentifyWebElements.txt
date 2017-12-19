@@ -1,0 +1,45 @@
+Web Elements:														XPath
+Header - Banner		: class = "img-responsive" 					//*[@class=img-responsive']						/html/body/div/div[1]/header/div[1]/div/div/a/img
+Contact	us			: id="contact-link"							//*[@id="contact-link"]							/html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a
+Sign-In				: class="login"								//*[@class="login"]								/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a
+HeaderLogo Link		: id="header_logo"							//*[@id="header_logo"]							/html/body/div/div[1]/header/div[3]/div/div/div[1]/a
+HeaderLogo Img		: class="logo img-responsive"				//*[@class="logo img-responsive"]				/html/body/div/div[1]/header/div[3]/div/div/div[1]/a/img
+Search TextBox		: input id="search_query_top"				//*[@id="search_query_top"] 					//*[@id="search_query_top"]					
+Search Button		: class="btn btn-default button-search" 	//*[@class="btn btn-default button-search"]		/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/button
+Shopping Cart		: title="View my shopping cart" 			//*[@title="View my shopping cart"]				/html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a
+Empty Cart			: class="ajax_cart_no_product unvisible"	//*[@class="ajax_cart_no_product unvisible"]	/html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a/span[5]
+HoverOverList1		: title="Women"								//*[@id="block_top_menu"]/ul/li[1]/a			/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[1]/a
+HoverOverList2		: title="Dresses"							//*[@id="block_top_menu"]/ul/li[2]/a			/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a
+HoverOverList3		: title="T-Shirts"							//*[@id="block_top_menu"]/ul/li[3]/a			/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[3]/a
+HomeSlider			: id="homepage-slider"						//*[@id="homepage-slider"]						//*[@id="homepage-slider"]
+ContentTopid		: id="htmlcontent_top"						//*[@id="htmlcontent_top"]						//*[@id="htmlcontent_top"]
+Popular				: class="homefeatured"						//*[@class="homefeatured"]						/html/body/div/div[2]/div/div[2]/div/ul/li[1]/a
+BestSeller			: class="blockbestsellers"					//*[@class="blockbestsellers"]					/html/body/div/div[2]/div/div[2]/div/ul/li[2]/a
+
+Product Selection/Details Page
+Product Image		: id="bigpic"								//*[@id="bigpic"]								//*[@id="bigpic"]
+**View Larger		: class="span_link no-print"																/html/body/div/div[2]/div/div[3]/div/div/div/div[2]/div[1]/span/span
+Wrap Images			: id="wrapResetImages"						//*[@id="wrapResetImages"]						//*[@id="wrapResetImages"]
+Product Title		: itemprop="name"							//*[@itemprop="name"]							/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/h1
+Product Model		: id="product_reference"					//*[@id="product_reference"]					//*[@id="product_reference"]
+Product COndition	: id="product_condition"					//*[@id="product_condition"]					//*[@id="product_condition"]
+ProdShortDecription : id="short_description_content"			//*[@id="short_description_content"]			//*[@id="short_description_content"]
+Twitter Btn			: class="btn btn-default btn-twitter"		//*[@class="btn btn-default btn-twitter"]		/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/p[7]/button[1]
+Facebook Btn		: class="btn btn-default btn-facebook"		//*[@class="btn btn-default btn-facebook"]		/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/p[7]/button[2]
+Google Btn			: class="btn btn-default btn-google-plus"	//*[@class="btn btn-default btn-google-plus"]   /html/body/div/div[2]/div/div[3]/div/div/div/div[3]/p[7]/button[3]
+Pinterest Btn		: class="btn btn-default btn-pinterest"		//*[@class="btn btn-default btn-pinterest"]		/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/p[7]/button[4]
+Review Block		: class="open-comment-form"					//*[@class="open-comment-form"]					/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/div[3]/ul/li/a
+Send to Friend		: id="send_friend_button"					//*[@id="send_friend_button"]					//*[@id="send_friend_button"]
+**Print Link		: href="javascript:print();"				//*[@href="javascript:print();"]				/html/body/div/div[2]/div/div[3]/div/div/div/div[3]/ul/li[2]/a
+Price				: id="our_price_display"					//*[@id="our_price_display"]					//*[@id="our_price_display"]
+Quantity TextBox	: id="quantity_wanted"						//*[@id="quantity_wanted"]						//*[@id="quantity_wanted"]
+Minus Icon			: class="icon-minus"						//*[@class="icon-minus"]						/html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[2]/p[1]/a[1]/span/i
+Plus Icon			: class="icon-plus"							//*[@class="icon-plus"]							/html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[2]/p[1]/a[2]/span/i
+Size Dropdown		: id="group_1"								//*[@id="group_1"]								//*[@id="group_1"]
+Dropdown Values		: title="S"									//*[@title="S"]									/html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[2]/div/fieldset[1]/div/div/select/option[1]
+Color Selector		: id="color_13"								//*[@id="color_13"]								//*[@id="color_13"]
+Add to Cart Btn		: id="add_to_cart"							//*[@id="add_to_cart"]							//*[@id="add_to_cart"]
+Add to WishList		: id="wishlist_button"						//*[@id="wishlist_button"]						//*[@id="wishlist_button"]
+Data Sheet Table	: class="table-data-sheet"					//*[@class="table-data-sheet"]					/html/body/div/div[2]/div/div[3]/div/div/section[1]/h3
+Be the First Review	: id="new_comment_tab_btn"					//*[@id="new_comment_tab_btn"]					//*[@id="new_comment_tab_btn"]
+NewsLetter MailId	: id="newsletter-input"						//*[@id="newsletter-input"]						//*[@id="newsletter-input"]
